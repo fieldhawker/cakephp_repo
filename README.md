@@ -21,8 +21,9 @@ https://github.com/composer/windows-setup/releases/
 修正前: bash "%BIN_TARGET%" %*  
 修正後: cmd /C "%BIN_TARGET%" %*  
 1. アプリケーションの作成  
-vendors\bin\cake bake project (プロジェクトのルート)\amane  
-vendors\bin\cake bake project C:\Users\bp-takano\Documents\GitHub\cakephp_repo\amane  
+vendors\bin\cake bake project
+amane
+
 php amane/Console/cake.php bake  
 ⇒DB接続設定を実施  
 php amane/Console/cake.php bake      ※2回目 モデルの作成　以後コントローラとビューも実施  
